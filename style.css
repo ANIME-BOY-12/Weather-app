@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+} 
+body{
+    background-color: rgb(32, 32, 32);
+} 
+.card{
+    margin-inline: auto;
+    margin-top: 100px;
+    max-width: 450px;
+    padding: 40px 40px ;
+    background-image: linear-gradient(112.2deg, rgb(86, 223, 223) 4.7%, rgb(2, 28, 186) 110.1%);
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(212, 255, 255);
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(212, 255, 255);
+    border: 1px solid rgb(212, 255, 255);
+    outline: 0;
+    color: rgb(5, 138, 138);
+}
+/* .card input :active{
+    border: 1px solid rgb(212, 255, 255);
+} */
+.search button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding-top: 5px;
+    background-color: rgb(212, 255, 255);
+    border: 1px solid rgb(212, 255, 255);
+    outline: 0;
+    cursor: pointer;
+    color: rgb(5, 138, 138);
+}
+.img1{
+    height: 25px;
+    width: 25px;
+    color: #058a8a;
+}
+.weather-icon{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 100px;
+    color: #058a8a;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 700;
+}
+.city{
+    font-size: 50px;
+    font-weight: 500;
+}
+.details{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.humidity img{
+    width: 50px;
+}
+.Wind-Speed img{
+    width: 50px;
+}
