@@ -5,7 +5,7 @@ let target ="lucknow"
 searchButton.addEventListener('click',searchForLocation)
 
 const fetchdata = async(targetLocation)=>{
-    let url = `http://api.weatherapi.com/v1/current.json?key=945e8600376a42babd740639240110&q=${targetLocation}&aqi=no`
+    let url = `https://api.weatherapi.com/v1/current.json?key=945e8600376a42babd740639240110&q=${targetLocation}&aqi=no`
 
     const res = await fetch(url)
     // console.log(res);
